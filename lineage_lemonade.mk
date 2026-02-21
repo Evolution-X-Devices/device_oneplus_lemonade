@@ -15,6 +15,8 @@ $(call inherit-product, device/oneplus/lemonade/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+TARGET_USES_MINI_GAPPS := true
+
 PRODUCT_NAME := lineage_lemonade
 PRODUCT_DEVICE := lemonade
 PRODUCT_MANUFACTURER := OnePlus
